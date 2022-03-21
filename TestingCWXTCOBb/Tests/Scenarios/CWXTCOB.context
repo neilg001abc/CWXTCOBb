@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5c519facfba8720a90ccc645" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="cwxtcob" componentId="">
+    <Parameter key="sourcelibrary">
+      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD</Value>
+    </Parameter>
+    <Parameter key="loadlibraries">
+      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD</Value>
+      <Value>DSNC10.DSC2.SDSNEXIT</Value>
+      <Value>DSNC10.SDSNLOAD</Value>
+      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD</Value>
+      <Value>SALESSUP.CWC2.FTS4.DEV1.LOAD</Value>
+    </Parameter>
+    <Parameter key="loadlibrary">
+      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD</Value>
+    </Parameter>
+    <Parameter key="sourcelibraries">
+      <Value>SALESSUP.CWC2.FTS4.QA1.LOAD.SSD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="CWXTCOB.scenario" />
+</ExecutionContext>
