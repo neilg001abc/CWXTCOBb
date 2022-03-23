@@ -13,6 +13,15 @@
 //EMPFILE DD DISP=SHR,DSN=HAUNXG0.APAC.TRAIN.CWXTDATA]]></Content>
       </Setup>
     </Component>
+    <SQLSelect id="id" description="Select from EMP Table" maxRows="20">
+      <Statement>SELECT EMP_COMM, EMP_TOTAL FROM FTS4QA.EMP</Statement>
+      <Output name="EMP_COMM" />
+      <Output name="EMP_TOTAL" />
+    </SQLSelect>
+    <Verify name="Verify" haltExecution="false" description="Verify slect result">
+      <Expected>6</Expected>
+      <Actual expression="id.Row[0].EMP_TOTAL" />
+    </Verify>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">
