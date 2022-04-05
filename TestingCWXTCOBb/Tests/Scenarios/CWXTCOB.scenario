@@ -14,7 +14,7 @@
       </Setup>
     </Component>
     <SQLSelect id="id" description="Select from EMP Table" maxRows="20">
-      <Statement>SELECT EMP_COMM, EMP_TOTAL FROM FTS4QA.EMP WHERE EMP_TOTAL = 99.099</Statement>
+      <Statement>SELECT EMP_COMM, EMP_TOTAL FROM FTS4QA.EMP WHERE EMP_TOTAL = 99675</Statement>
       <Output name="EMP_COMM" />
       <Output name="EMP_TOTAL" />
     </SQLSelect>
