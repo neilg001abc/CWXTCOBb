@@ -4,7 +4,7 @@
     <Component label="CWXTCOB" moduleName="CWXTCOB" programExitVerify="value &lt; 8" rollback="false">
       <Data>
         <PARMINFO>
-          <PARM_LTH expected="5">5</PARM_LTH>
+          <PARM_LTH expected="4">5</PARM_LTH>
           <PARM_DATA expected="00003">00003</PARM_DATA>
         </PARMINFO>
       </Data>
